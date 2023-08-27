@@ -1143,7 +1143,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function DGAWYCZ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function JCEEFTT_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button"]
@@ -1166,7 +1166,7 @@ local function DGAWYCZ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGu
 		set.Spread = 0
 	end)
 end
-local function VIYUZMW_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function LSKZGF_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button1"]
@@ -1183,7 +1183,7 @@ local function VIYUZMW_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGu
 		game:GetService("ReplicatedStorage").Events.GiveCure:FireServer()
 	end)
 end
-local function OGIG_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function HJMGVK_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button2"]
@@ -1200,7 +1200,7 @@ local function OGIG_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiRe
 		game:GetService("ReplicatedStorage").Events.GiveVirus:FireServer()
 	end)
 end
-local function CZXREER_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function APXS_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button3"]
@@ -1219,7 +1219,7 @@ local function CZXREER_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGu
 		workspace.AntiWeaponZone:Destroy()
 	end)
 end
-local function KPCC_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function ENVQJTM_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button4"]
@@ -1236,7 +1236,7 @@ local function KPCC_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiRe
 		workspace.AntiGlitch:Destroy()
 	end)
 end
-local function ICPV_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function IIOXR_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button5"]
@@ -1253,7 +1253,7 @@ local function ICPV_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiRe
 		game:GetService("ReplicatedStorage").LocalFolder.GamepassVirusMachine.Parent = workspace
 	end)
 end
-local function QEBWL_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function DZDYALV_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button6"]
@@ -1270,7 +1270,7 @@ local function QEBWL_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiR
 		game:GetService("ReplicatedStorage").LocalFolder.GamepassCureMachine.Parent = workspace
 	end)
 end
-local function XDZNJ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function NVKIIBZ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button7"]
@@ -1287,7 +1287,7 @@ local function XDZNJ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiR
 		workspace.HumanOnlyDoor:Destroy()
 	end)
 end
-local function KDDCH_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function OGPC_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button8"]
@@ -1302,14 +1302,15 @@ local function KDDCH_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiR
 
 	script.Parent.MouseButton1Click:Connect(function()
 		pcall(function()
-			while task.wait() do
+			while true do
 				game:GetService("Players").LocalPlayer.Character["Anti-Exploits"]:Destroy()
 				game:GetService("Players").LocalPlayer.Character["Backpack Disable"]:Destroy()
+				task.wait()
 			end
 		end)
 	end)
 end
-local function YPJIV_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
+local function NNVJCFZ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button9"]
@@ -1324,14 +1325,18 @@ local function YPJIV_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiR
 
 	script.Parent.MouseButton1Click:Connect(function()
 		pcall(function()
-			while task.wait() do
+			while true do
 				game:GetService("ReplicatedStorage").Events.ZombifyPlayer:Destroy()
 				game:GetService("Players").LocalPlayer.Character.Handler:Destroy()
+				game:GetService("Players").LocalPlayer.PlayerGui["PlayerLocalScripts(ReOnSp)"]:Destroy()
+				game:GetService("Players").LocalPlayer.PlayerGui.PlayerStatus:Destroy()
+				game:GetService("Players").LocalPlayer.Settings:Destroy()
+				task.wait()
 			end
 		end)
 	end)
 end
-local function CEUSS_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Fly
+local function UOKZT_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Fly
     local script = Instance.new("LocalScript")
     script.Name = "Fly"
     script.Parent = Converted["_Page3"]
@@ -1457,7 +1462,7 @@ local function CEUSS_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiR
 		end)
 	end)
 end
-local function DKMK_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Noclip
+local function FINCO_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page3.Noclip
     local script = Instance.new("LocalScript")
     script.Name = "Noclip"
     script.Parent = Converted["_Page3"]
@@ -1507,7 +1512,7 @@ local function DKMK_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiRe
 		Clip = true
 	end)
 end
-local function JWDQTH_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
+local function NUKWKTP_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button10"]
@@ -1524,7 +1529,7 @@ local function JWDQTH_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGui
 		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-75, 3, 93)
 	end)
 end
-local function TPLEDXT_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
+local function MZPXLS_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button11"]
@@ -1541,7 +1546,7 @@ local function TPLEDXT_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGu
 		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19, 3, 16)
 	end)
 end
-local function LAMIMAJ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
+local function UNZQZ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button12"]
@@ -1558,7 +1563,7 @@ local function LAMIMAJ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGu
 		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-76, -15, 83)
 	end)
 end
-local function YVFFU_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
+local function AFHAVT_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button13"]
@@ -1575,7 +1580,7 @@ local function YVFFU_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiR
 		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-69, -15, -52)
 	end)
 end
-local function OTPIXM_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
+local function QQGKK_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button14"]
@@ -1592,7 +1597,7 @@ local function OTPIXM_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGui
 		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(150, 3, -8)
 	end)
 end
-local function HGJYQJG_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
+local function MEWZYVZ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button15"]
@@ -1609,7 +1614,7 @@ local function HGJYQJG_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGu
 		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(113, 3, 7)
 	end)
 end
-local function ESZY_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
+local function OXXQCJ_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.PageFrame.Page2.Button.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Button16"]
@@ -1626,7 +1631,7 @@ local function ESZY_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiRe
 		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83, 3, 60)
 	end)
 end
-local function QNJZOME_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.LocalScript
+local function JUAZBB_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Main"]
@@ -1668,7 +1673,7 @@ local function QNJZOME_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGu
 		page3.Visible = true
 	end)
 end
-local function YTAF_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.Drag
+local function XDSG_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiReal.Main.Drag
     local script = Instance.new("LocalScript")
     script.Name = "Drag"
     script.Parent = Converted["_Main"]
@@ -1722,24 +1727,24 @@ local function YTAF_fake_script() -- Fake Script: StarterGui.ZombieFunniLabGuiRe
 	
 end
 
-coroutine.wrap(DGAWYCZ_fake_script)()
-coroutine.wrap(VIYUZMW_fake_script)()
-coroutine.wrap(OGIG_fake_script)()
-coroutine.wrap(CZXREER_fake_script)()
-coroutine.wrap(KPCC_fake_script)()
-coroutine.wrap(ICPV_fake_script)()
-coroutine.wrap(QEBWL_fake_script)()
-coroutine.wrap(XDZNJ_fake_script)()
-coroutine.wrap(KDDCH_fake_script)()
-coroutine.wrap(YPJIV_fake_script)()
-coroutine.wrap(CEUSS_fake_script)()
-coroutine.wrap(DKMK_fake_script)()
-coroutine.wrap(JWDQTH_fake_script)()
-coroutine.wrap(TPLEDXT_fake_script)()
-coroutine.wrap(LAMIMAJ_fake_script)()
-coroutine.wrap(YVFFU_fake_script)()
-coroutine.wrap(OTPIXM_fake_script)()
-coroutine.wrap(HGJYQJG_fake_script)()
-coroutine.wrap(ESZY_fake_script)()
-coroutine.wrap(QNJZOME_fake_script)()
-coroutine.wrap(YTAF_fake_script)()
+coroutine.wrap(JCEEFTT_fake_script)()
+coroutine.wrap(LSKZGF_fake_script)()
+coroutine.wrap(HJMGVK_fake_script)()
+coroutine.wrap(APXS_fake_script)()
+coroutine.wrap(ENVQJTM_fake_script)()
+coroutine.wrap(IIOXR_fake_script)()
+coroutine.wrap(DZDYALV_fake_script)()
+coroutine.wrap(NVKIIBZ_fake_script)()
+coroutine.wrap(OGPC_fake_script)()
+coroutine.wrap(NNVJCFZ_fake_script)()
+coroutine.wrap(UOKZT_fake_script)()
+coroutine.wrap(FINCO_fake_script)()
+coroutine.wrap(NUKWKTP_fake_script)()
+coroutine.wrap(MZPXLS_fake_script)()
+coroutine.wrap(UNZQZ_fake_script)()
+coroutine.wrap(AFHAVT_fake_script)()
+coroutine.wrap(QQGKK_fake_script)()
+coroutine.wrap(MEWZYVZ_fake_script)()
+coroutine.wrap(OXXQCJ_fake_script)()
+coroutine.wrap(JUAZBB_fake_script)()
+coroutine.wrap(XDSG_fake_script)()
